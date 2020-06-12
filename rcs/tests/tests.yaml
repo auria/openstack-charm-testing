@@ -1,5 +1,3 @@
-configure:
- - zaza.openstack.charm_tests.vault.setup.auto_initialize_no_validation
 tests:
   - zaza.charm_tests.noop.tests.NoopTest
 target_deploy_status:
